@@ -9,7 +9,15 @@ Here is the documentation of the setup to authenticate HCP Terraform runs to AWS
 - Minimize manual steps to update permissions or alter any infrastructure config
 - Avoid committing and exposing sensitive data/credentials
 
-## Diagram
+## Table of Contents
+
+- [Architecture Diagram](#architecture-diagram)
+- [GitHub Actions](#github-actions)
+- [OIDC Setup](#oidc-setup)
+- [AWS Auth Injection](#aws-auth-injection)
+  - [AWS Roles with Permissions](#aws-roles-with-permissions)
+
+## Architecture Diagram
 
 This diagram explains the general infrastructure architecture using the service [startgg-bracket-helper-bot](https://github.com/enpicie/startgg-bracket-helper-bot) as an example.
 
